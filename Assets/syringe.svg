@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 520">
+<defs>
+  <linearGradient id="glass" x1="0" x2="1"><stop stop-color="#FFFFFF"/><stop offset=".46" stop-color="#DDE9F0"/><stop offset="1" stop-color="#B6C7D2"/></linearGradient>
+  <linearGradient id="blood" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FF4563"/><stop offset="1" stop-color="#B9092F"/></linearGradient>
+  <filter id="s"><feDropShadow dx="0" dy="8" stdDeviation="6" flood-opacity=".38"/></filter>
+</defs>
+<g filter="url(#s)">
+  <rect x="76" y="0" width="8" height="72" rx="4" fill="#D8E3E9"/>
+  <rect x="34" y="64" width="92" height="305" rx="21" fill="url(#glass)" stroke="#304B60" stroke-width="7"/>
+  <rect x="42" y="192" width="76" height="166" rx="10" fill="url(#blood)"/>
+  <path d="M44 208h72" stroke="#FF7890" stroke-opacity=".45" stroke-width="6"/>
+  <g stroke="#647E91" stroke-width="4">
+    <path d="M48 108h30"/><path d="M48 139h44"/><path d="M48 170h30"/>
+    <path d="M48 231h44"/><path d="M48 263h30"/><path d="M48 295h44"/><path d="M48 327h30"/>
+  </g>
+  <rect x="12" y="362" width="136" height="31" rx="10" fill="#DBE5EA" stroke="#304B60" stroke-width="6"/>
+  <rect x="70" y="390" width="20" height="82" rx="7" fill="#DBE5EA"/>
+  <rect x="45" y="462" width="70" height="28" rx="8" fill="#DBE5EA" stroke="#304B60" stroke-width="6"/>
+</g>
+</svg>
