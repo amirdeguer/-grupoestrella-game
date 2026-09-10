@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#062847"/><stop offset="1" stop-color="#020914"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#FFE275"/><stop offset="1" stop-color="#FF9B00"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="512" height="512" rx="110" fill="url(#bg)"/>
+<rect x="22" y="22" width="468" height="468" rx="96" fill="none" stroke="#32D9FF" stroke-width="10"/>
+<path d="M35 328h86l22-38 31 90 34-73 29 21h71l25-41 29 82 30-51h84" fill="none" stroke="#FF315A" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+<text x="256" y="138" text-anchor="middle" font-family="Arial" font-weight="900" font-size="49" fill="#fff">GRUPO</text>
+<text x="256" y="228" text-anchor="middle" font-family="Arial" font-weight="1000" font-size="78" fill="url(#gold)" stroke="#7C4700" stroke-width="5" paint-order="stroke">ESTRELLA</text>
+<rect x="120" y="252" width="272" height="64" rx="32" fill="#E62449" stroke="#fff" stroke-width="6"/>
+<text x="256" y="294" text-anchor="middle" font-family="Arial" font-weight="900" font-size="31" fill="#fff">CÓDIGO ROJO</text>
+<circle cx="256" cy="400" r="48" fill="#24C85D" stroke="#fff" stroke-width="6"/>
+<path d="M242 370l48 30-48 30z" fill="#fff"/>
+</svg>
